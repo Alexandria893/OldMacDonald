@@ -10,14 +10,8 @@ class Chick implements Animal
 		mySound = sound;
 
 	}
-	public Chick()
-	{
-	
-		myType = "unknown";
-		mySound = "unknown";
 
-	}
-	public String getSound(){return mySound;}
-	public String getType(){return myType;}
+public String getType(){return myType;}
+public String getSound(){return mySound;}
 
 }

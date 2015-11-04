@@ -1,8 +1,8 @@
 class Cow implements Animal 
 {     
 
-	private String myType;
-	private String mySound;
+	protected String myType;
+	protected String mySound;
 	public Cow(String type, String sound)
 	{
 
@@ -11,7 +11,7 @@ class Cow implements Animal
 
 	}
 
-	public Cow()
+	public Cow() //for error check 
 	{
 		myType = "unknown";
 		mySound = "unknown";
